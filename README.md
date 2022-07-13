@@ -1,27 +1,32 @@
-# DemoCreateFilesExcel
+# Demo crear excel en un proyecto Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
+Hola Chikis, en esta demostración usaremos la librería **excelJS** para poder crear archivos excel y para poder realizar la descarga usaremos la librería **file-saver**
 
-## Development server
+## exceljs
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Esta librería nos permite crear archivos excel, más información en https://www.npmjs.com/package/exceljs
 
-## Code scaffolding
+```console
+npm i exceljs file-saver
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+La librería **file-saver** necesita **types** para poder usarlo con typescript (valga la redundancia).
 
-## Build
+```console
+npm i -D @types/file-saver
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
 
-## Running unit tests
+Suscríbete a mi canal 😎
+www.youtube.com/c/logidev
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Sígueme en mis redes:**
+👉Facebook : https://facebook.com/LogiDev25  
+búscame como: @fukyncode  
+👉Instagram: https://instagram.com/jimyhdolores/  
+búscame como: @jimyhdolores  
+👉Twitter: https://twitter.com/jimyHDolores  
+búscame como: @jimyHDolores  
+👉LinkedIn:https://linkedin.com/in/jimyhuachodolores/  
+búscame como: @jimyhuachodolores
