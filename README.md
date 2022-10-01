@@ -1,6 +1,8 @@
 # Demo crear excel en un proyecto Angular
 
-Hola Chikis, en esta demostración usaremos la librería **excelJS** para poder crear y descargar archivos excel.
+Hola Chikis, en esta demostración usaremos la librería **excelJS** para poder crear y descargar archivos excel, ademas de ello usaremos la librería JSZip para poder agregar multiples archivos de excel dentro de un _*.zip*_.
+
+Adicionalmente usaremos _Web Worker_ para poder ejecutar las cargas pesadas.
 
 ## Exceljs y file-saver
 
@@ -23,6 +25,20 @@ Tambien devemos hacer unos cambios en el archivo **tsconfig.app.json** , en la s
     "outDir": "./out-tsc/app",
     "types": ["node"]
   }
+```
+
+# JSZip
+
+“JSZip es una librería de javascript para crear, leer y editar archivos .zip, con una API hermosa y simple.”
+
+```console
+npm i jszip
+```
+
+## Generar un _web-worker_ con angular
+
+```console
+ng generate web-worker <location>
 ```
 
 Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
