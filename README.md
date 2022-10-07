@@ -25,7 +25,7 @@ Tambien devemos hacer unos cambios en el archivo **tsconfig.app.json** , en la s
   }
 ```
 
-Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗
+Pueden escribirme si tiene dudas chikis, gracias por su apoyo.🤗😎
 
 Suscríbete a mi canal 😎
 https://www.youtube.com/c/LogiDev
